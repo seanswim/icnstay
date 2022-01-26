@@ -43,7 +43,7 @@ const Footer = () => {
       <Container>
         <FooterHeader>K2H2</FooterHeader>
         <FooterHeader>
-          Ho Min Kim{' '}
+          Mubarmig Kim{' '}
           <a href="http://github.com/Mubarmig">
             <GithubIcon src={githubIcon} />
           </a>{' '}

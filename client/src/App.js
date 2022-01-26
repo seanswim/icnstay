@@ -14,8 +14,6 @@ import Accommodation from './pages/Accommodation';
 import BiddingList from './pages/BiddingList';
 import Preloader from './components/Preloader';
 import Footer from './components/Footer';
-import dotenv from 'dotenv';
-dotenv.config();
 
 axios.defaults.withCredentials = true;
 
