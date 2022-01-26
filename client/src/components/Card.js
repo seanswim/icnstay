@@ -47,7 +47,7 @@ const Card = ({ src, name, location, id }) => {
   const handleCardClick = async () => {
     navigate(`/accommodation/${id}`);
     try {
-      const requestAccomodationInfo = await axios.get(`https://localhost:4000/accommodation/${id}`);
+      const requestAccomodationInfo = await axios.get(`${process.env.REACT_APP_API_URL}/accommodation/${id}`);
       const redirectPath =  window.location.href.slice(22);
       dispatch(setVisitedPage(redirectPath))
     } catch(err) {

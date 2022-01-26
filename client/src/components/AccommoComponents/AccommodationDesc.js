@@ -82,7 +82,7 @@ const AccommodationDesc = () => {
     if (localStorage.getItem('token')) {
       try {
         const response = await axios.post(
-          `https://localhost:4000/accommodation/${accommodationDetail.information.id}`,
+          `${process.env.REACT_APP_API_URL}/accommodation/${accommodationDetail.information.id}`,
           bidInformation
         );
         if (response.status === 201) {

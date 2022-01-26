@@ -63,7 +63,7 @@ const SignIn = ({ handleResponseSuccess }) => {
 
   const handleLoginButton = async () => {
     try {
-      const signInRequest = await axios.post('https://localhost:4000/signin', {
+      const signInRequest = await axios.post(`${process.env.REACT_APP_API_URL}/signin`, {
         email,
         password: sha256(password),
       });
