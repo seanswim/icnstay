@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/icnstay/static/css/main.31866aab.css",
+    "main.js": "/icnstay/static/js/main.2ed4c460.js",
+    "static/media/bannerImage.webp": "/icnstay/static/media/bannerImage.1302c7e0c7a7327d02bb.webp",
+    "static/media/logo.png": "/icnstay/static/media/logo.3a9d944864d6962580b5.png",
+    "static/media/githubIcon.png": "/icnstay/static/media/githubIcon.bf85ce05ac42dffc229a.png",
+    "index.html": "/icnstay/index.html",
+    "main.31866aab.css.map": "/icnstay/static/css/main.31866aab.css.map",
+    "main.2ed4c460.js.map": "/icnstay/static/js/main.2ed4c460.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31866aab.css",
+    "static/js/main.2ed4c460.js"
+  ]
+}
