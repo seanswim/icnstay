@@ -25,7 +25,8 @@ function App() {
 
   const getUser = async () => {
     try {
-      const res = await axios.get(`${process.env.REACT_APP_API_URL}/userinfo`);
+      const accessToken = localStorage.getItem('token');
+      const res = await axios.get(`${process.env.REACT_APP_API_URL}/userinfo`, {accessToken});
       const userInfo = res.data;
       if (userInfo) {
         const { id, email, mobile, username, social } = userInfo;
